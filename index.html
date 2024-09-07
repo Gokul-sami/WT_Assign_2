@@ -87,36 +87,7 @@
 
     </div>
 
-    <script>
-        // Function to toggle the visibility of the clicked rhyme's lyrics and audio
-        function toggleLyrics(clickedTitle) {
-            const allLyrics = document.querySelectorAll('.lyrics');
-            const allAudioButtons = document.querySelectorAll('.play-audio');
-            const currentLyrics = clickedTitle.nextElementSibling;
-            const currentAudioButton = currentLyrics.nextElementSibling;
-
-            // Hide all other lyrics and audio buttons except the clicked one
-            allLyrics.forEach(lyrics => {
-                if (lyrics !== currentLyrics) {
-                    lyrics.style.display = 'none'; // Hide other lyrics
-                }
-            });
-            allAudioButtons.forEach(audioBtn => {
-                if (audioBtn !== currentAudioButton) {
-                    audioBtn.style.display = 'none'; // Hide other audio buttons
-                }
-            });
-
-            // Toggle the clicked rhyme's lyrics and corresponding audio button
-            if (currentLyrics.style.display === 'block') {
-                currentLyrics.style.display = 'none'; // Hide lyrics
-                currentAudioButton.style.display = 'none'; // Hide audio button
-            } else {
-                currentLyrics.style.display = 'block'; // Show lyrics
-                currentAudioButton.style.display = 'block'; // Show audio button
-            }
-        }
-    </script>
+    <script src="script.js"></script>
 
 </body>
 </html>
