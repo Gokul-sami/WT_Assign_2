@@ -21,7 +21,7 @@ h1 {
 }
 
 .rhyme-container {
-    width: 80%;
+    width: 60%;
     background-color: #fff;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -41,7 +41,32 @@ h1 {
     margin-bottom: 10px;
 }
 
+.lyrics {
+    display: none; /* Hide the lyrics initially */
+    font-size: 1.2em;
+    color: #000;
+    line-height: 1.5;
+    margin-top: 10px;
+}
 
+.rhyme-title {
+    font-size: 1.5em;
+    color: #32cd32;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f0f8ff;
+    border-radius: 8px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.rhyme-title:hover {
+    background-color: #d0f0c0;
+}
+
+.rhyme-container {
+    margin-bottom: 20px;
+}
 
 /* Animation for background change */
 @keyframes colorChange {
