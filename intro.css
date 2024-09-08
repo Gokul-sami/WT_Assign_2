@@ -12,12 +12,12 @@ body {
     text-align: center;
 }
 
-.animation {
+.gif {
     margin-bottom: 20px;
 }
 
 .plane-gif {
-    width: 70%; /* Adjust the size as needed */
+    width: 70%;
 }
 
 .intro-text {
@@ -26,12 +26,11 @@ body {
     display: none;
 }
 
+/*show - the element becomes fully visible */
 .intro-text.show {
     opacity: 1;
     display: block;
 }
-
-
 
 .intro-text h1 {
     font-size: 3em;

@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="intro-container">
-        <div class="animation">
+        <div class="gif">
             <img src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/b78c7093739385.5e6c2288e2cd1.gif" alt="Animated Paper Plane" class="plane-gif">
         </div>
         <div class="intro-text" id="text">
@@ -17,15 +17,16 @@
         </div>
     </div>
     
+    <!-- To show main page after some delay  -->
     <script>
         window.onload = function() {
             setTimeout(() => {
                 document.getElementById('text').classList.add('show');
-            }, 0); // Show the text immediately after GIF
+            }, 0);
 
             setTimeout(() => {
                 window.location.href = 'rhymes.html';
-            }, 5000); // Redirect after 5 seconds (adjust as needed)
+            }, 5000);
         };
     </script>
 </body>
