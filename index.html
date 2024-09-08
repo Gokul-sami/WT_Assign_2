@@ -12,7 +12,10 @@
     <div class="container">
         <h1>Welcome to the Kids Rhyme World!</h1>
 
-        <div class="rhyme-container card">
+        <!-- <div class="components Butterfly1">
+            <img src="https://opengameart.org/sites/default/files/butterfly%20blue%20animation%20gif%20130%20milisecond.gif" alt="Butterfly">
+        </div> -->
+        <div class="rhyme-container card" id="twinkle">
             <div class="rhyme-title card-header" onclick="toggleLyrics(this)">Twinkle Twinkle Little Star</div>
             <div class="lyrics card-body">
                 Twinkle, twinkle, little star,<br>
@@ -34,14 +37,26 @@
                 </audio>
             </div>
         </div>
-
-        <div class="rhyme-container card">
-            <div class="rhyme-title card-header" onclick="toggleLyrics(this)">Row, Row, Row Your Boat</div>
+        
+        <div class="rhyme-container card" id="johny">
+            <div class="rhyme-title card-header" onclick="toggleLyrics(this)">Johny Johny Yes Papa</div>
             <div class="lyrics card-body">
-                Row, row, row your boat,<br>
-                Gently down the stream.<br>
-                Merrily, merrily, merrily, merrily,<br>
-                Life is but a dream.
+                Johny, Johny<br>
+                (Yes, papa)<br>
+                Eating sugar?<br>
+                (No, papa)<br>
+                Telling lies?<br>
+                (No, papa)<br>
+                Open your mouth<br>
+                (Ah, ah, ah)<br><br>
+                Johny, Johny<br>
+                (Yes, papa)<br>
+                Eating sugar?<br>
+                (No, papa)<br>
+                Telling lies?<br>
+                (No, papa)<br>
+                Open your mouth<br>
+                (Ah, ah, ah)
             </div>
             <div class="play-audio" style="display: none;">
                 <audio controls class="w-100 mt-2">
@@ -50,7 +65,7 @@
             </div>
         </div>
 
-        <div class="rhyme-container card">
+        <div class="rhyme-container card" id="baa">
             <div class="rhyme-title card-header" onclick="toggleLyrics(this)">Baa Baa Black Sheep</div>
             <div class="lyrics card-body">
                 Baa, baa, black sheep, have you any wool?<br>
@@ -83,6 +98,82 @@
                     <source src="./audio/Baa-Baa-Black-Sheep-.mp3" type="audio/mpeg">
                 </audio>
             </div>
+        </div>
+
+        <div class="rhyme-container card" id="row">
+            <div class="rhyme-title card-header" onclick="toggleLyrics(this)">Row, row, row your boat</div>
+            <div class="lyrics card-body">
+                Row, row, row your boat,<br>
+                Gently down the stream.<br>
+                Merrily, merrily, merrily, merrily,<br>
+                Life is but a dream.
+            </div>
+            <div class="play-audio" style="display: none;">
+                <audio controls class="w-100 mt-2">
+                    <source src="./audio/rowyourboat.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+
+        <div class="rhyme-container card" id="wheels">
+            <div class="rhyme-title card-header" onclick="toggleLyrics(this)">The Wheels on the Bus</div>
+            <div class="lyrics card-body">
+                The wheels on the bus go round and round<br>
+                Round and round<br>
+                Round and round<br>
+                The wheels on the bus go round and round<br>
+                All through the town<br><br>
+                The wipers on the bus go Swish, swish, swish<br>
+                Swish, swish, swish<br>
+                Swish, swish, swish<br>
+                The wipers on the bus go Swish, swish, swish<br>
+                All through the town<br><br>
+                The horn on the bus goes Beep, beep, beep<br>
+                Beep, beep, beep<br>
+                Beep, beep, beep<br>
+                The horn on the bus goes Beep, beep, beep<br>
+                All through the town<br><br>
+                The doors on the bus go open and shut<br>
+                Open and shut<br>
+                Open and shut<br>
+                The doors on the bus go open and shut<br>
+                All through the town<br><br>
+                The Driver on the bus says "Move on back<br>
+                Move on back, move on back"<br>
+                The Driver on the bus says "Move on back"<br>
+                All through the town<br><br>
+                The babies on the bus says "Wah, wah, wah<br>
+                Wah, wah, wah<br>
+                Wah, wah, wah"<br>
+                The babies on the bus says "Wah, wah, wah"<br>
+                All through the town<br><br>
+                The mommies on the bus says "Shush, shush, shush<br>
+                Shush, shush, shush<br>
+                Shush, shush, shush"<br>
+                The mommies on the bus says "Shush, shush, shush"<br>
+                All through the town
+            </div>
+            <div class="play-audio" style="display: none;">
+                <audio controls class="w-100 mt-2">
+                    <source src="./audio/rowyourboat.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+
+        <div class="components stars">
+            <img src="https://media.tenor.com/B84jxTWM2JcAAAAi/dancing-star-star.gif" alt="Butterfly">
+        </div>
+        <div class="components boat">
+            <img style="width: 100%;" src="https://i.pinimg.com/originals/7c/61/2a/7c612abd274e4b3b26d1b92652e7348f.gif" alt="Butterfly">
+        </div>
+        <div class="components sheep">
+            <img style="width: 100%;" src="https://www.perthnow.com.au/stories/words-matter-the-centuries-old-nursery-rhymes-going-woke/assets/6.gif" alt="Butterfly">
+        </div>
+        <div class="components johny">
+            <img style="width: 100%;" src="https://i.pinimg.com/originals/9b/4a/94/9b4a948f5f03ed000e81af0739d99c39.gif" alt="Butterfly">
+        </div>
+        <div class="components wheels">
+            <img style="width: 200%;" src="https://clipart-library.com/images/6iy5e4E5T.gif" alt="Butterfly">
         </div>
 
     </div>
