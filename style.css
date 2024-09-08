@@ -1,11 +1,12 @@
 body {
-    font-family: 'Comic Sans MS', sans-serif;
+    font-family: 'Baloo 2', sans-serif;
     background-color: #f0f8ff;
     text-align: center;
     animation: colorChange 10s infinite;
 }
 
 h1 {
+    font-family: 'Fredoka One', cursive;
     font-size: 3em;
     color: #ff1493;
     text-shadow: 2px 2px 5px #ff69b4;
@@ -27,7 +28,7 @@ h1 {
     border-radius: 10px;
     padding: 20px;
     margin: 20px 0;
-    transition: transform 0.4s ease;
+    transition: transform 0.4s ease-out;
 }
 
 .rhyme-container:hover {
@@ -36,6 +37,7 @@ h1 {
 }
 
 .rhyme-title {
+    font-family: 'Fredoka One', cursive;
     font-size: 2em;
     color: #32cd32;
     margin-bottom: 10px;
