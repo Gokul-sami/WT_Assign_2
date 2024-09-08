@@ -16,6 +16,7 @@ function toggleLyrics(clickedTitle) {
     if (lyrics.style.display === 'block') {
         lyrics.style.display = 'none';
         audio.style.display = 'none';
+
     } else {
         lyrics.style.display = 'block';
         audio.style.display = 'block';
